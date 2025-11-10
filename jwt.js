@@ -15,7 +15,7 @@ const privateKey = (() => {
     return fs.readFileSync(absolutePath, 'utf8');
   }
 
-  throw new Error('Apple private key bulunamadı. APPLE_PRIVATE_KEY veya APPLE_KEY_PATH değişkenlerinden birini tanımlayın.');
+  throw new Error('Apple private key not found. Define either APPLE_PRIVATE_KEY or APPLE_KEY_PATH variables.');
 })();
 
 const payload = {
