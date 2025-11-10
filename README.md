@@ -46,6 +46,3 @@ The generated token can be used as the client secret when communicating with App
 - Prefer using separate keys for production and staging/test environments.
 - The token expiration is set to Apple’s recommended maximum (~6 months). Adjust the `exp` value in `jwt.js` if you need a shorter lifetime.
 
-## License
-
-MIT License
